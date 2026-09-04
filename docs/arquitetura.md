@@ -32,12 +32,3 @@ GET       /pagina-que-nao-existe                  404 Not Found
 Justificativa do HTTPS:
 
 O formulário de agendamento da Clínica Vida+ exige o uso do protocolo HTTPS para garantir a segurança dos dados transmitidos entre o navegador do paciente e o servidor por meio da criptografia TLS. Como a página trafega informações pessoais e sensíveis, como o CPF do paciente e dados de consultas médicas, o HTTPS garante a privacidade do usuário e impede a interceptação do tráfego na rede.
-
-4. Salve o arquivo (`Ctrl + S`).
-5. No **Terminal do Codespaces**, rode estes comandos para enviar seu trabalho:
-
-```bash
-git status
-git add docs/arquitetura.md
-git commit -m "docs: arquitetura da requisicao e evidencias de DNS e HTTP"
-git push -u origin NOME-DA-SUA-BRANCH
