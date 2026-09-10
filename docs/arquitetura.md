@@ -1,4 +1,4 @@
-Markdown 
+Markdown
 ## O caminho de uma requisição
 
 ```mermaid
@@ -13,21 +13,21 @@ sequenceDiagram
     S-->>N: 200 OK, HTML da agenda
 
 
-Evidência do DNS 
+Evidência do DNS:
 Plaintext
 Server:         127.0.0.53
 Address:        127.0.0.53#53
 
 Non-authoritative answer:
-Name:   github.com
+Name:    github.com
 Address: 140.82.113.3
 
 Evidência do HTTP
-Método             Recurso                       Status 
-GET       gitkraken-client-github-desktop         200 OK
-GET       svg-with-js.css                         200 OK
-GET       style.min.css?ver=2.3.1                 200 OK
-GET       /pagina-que-nao-existe                  404 Not Found
+Método             Recurso                          Status 
+GET        gitkraken-client-github-desktop         200 OK
+GET        svg-with-js.css                         200 OK
+GET        style.min.css?ver=2.3.1                 200 OK
+GET        /pagina-que-nao-existe                  404 Not Found
 
 Justificativa do HTTPS:
 
