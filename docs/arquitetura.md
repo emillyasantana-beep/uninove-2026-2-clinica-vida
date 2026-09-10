@@ -13,7 +13,7 @@ sequenceDiagram
     S-->>N: 200 OK, HTML da agenda
 
 
-Evidência do DNS:
+Evidência do DNS
 Plaintext
 Server:         127.0.0.53
 Address:        127.0.0.53#53
@@ -21,6 +21,7 @@ Address:        127.0.0.53#53
 Non-authoritative answer:
 Name:    github.com
 Address: 140.82.113.3
+
 
 Evidência do HTTP
 Método             Recurso                          Status 
